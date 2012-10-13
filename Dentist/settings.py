@@ -1,4 +1,4 @@
-# Django settings for Dentysta project.
+# Django settings for Dentist project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'dentysta',                      # Or path to database file if using sqlite3.
+        'NAME': 'dentist',                      # Or path to database file if using sqlite3.
         'USER': 'root',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -78,7 +78,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'xfx4x61x9=h+0-ieaqn(be$h!420_y$0et4&amp;&amp;hv3srz&amp;yx5p7t'
+SECRET_KEY = '_n=cw2cmr0&amp;u_bs-z#o3m&amp;d!@2it)4buw$#k%@6&amp;t4f!2c%4m3'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -97,10 +97,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'Dentysta.urls'
+ROOT_URLCONF = 'Dentist.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'Dentysta.wsgi.application'
+WSGI_APPLICATION = 'Dentist.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
